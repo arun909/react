@@ -1,0 +1,31 @@
+{
+  "name": "hred",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon"
+  },
+  "keywords": [],
+  "repository": {
+    "type": "git" ,
+     "url": "https://github.com/arun909/react.git"
+  },
+  "author": "arun",
+  "license": "ISC",
+  "description": "a mern app for study",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "config": "^3.3.12",
+    "decrypt": "^0.0.1",
+    "express": "^4.19.2",
+    "express-validator": "^7.1.0",
+    "jest": "^29.7.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.5.2",
+    "package": "^1.0.1"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "nodemon": "^3.1.4"
+  }
+}
