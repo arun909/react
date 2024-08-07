@@ -7,6 +7,8 @@ const PORT = process.env.PORT || 5000;
 // Connect to the database
 connectDB();
 
+
+
 // Define a simple route
 app.get('/', (req, res) => res.send('API running'));
 
