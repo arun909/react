@@ -12,5 +12,7 @@ connectDB();
 // Define a simple route
 app.get('/', (req, res) => res.send('API running'));
 
+
+
 // Start the server
 app.listen(PORT, () => console.log(`Server started on port ${PORT}`));
